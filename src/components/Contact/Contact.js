@@ -2,9 +2,8 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Contact = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -20,4 +19,4 @@ const Hero = (props) => (
   </>
 );
 
-export default Hero;
+export default Contact;

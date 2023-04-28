@@ -16,30 +16,27 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <a href='/'>Home</a>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <a href='/projects'>Projects</a>
+      </li>      
+      <li>
+        <a href='/blog'>Blog</a>
       </li>        
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <a href='/about'>About</a>
+      </li>        
+      <li>
+        <a href='/contact'>Contact</a>
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/sbgrewe">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://linkedin.com">
           <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
     </Container>
