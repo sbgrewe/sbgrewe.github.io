@@ -1,33 +1,26 @@
-import BgAnimation from './components/BackgroundAnimation/BackgroundAnimation';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
-import Blog from './components/Blog/Blog';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Timeline from './components/TimeLine/TimeLine';
-import { Layout } from './layout/Layout';
-import { Section } from './styles/GlobalComponents';
-import {Routes, Route} from 'react-router-dom'
+
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Blog from "./components/Blog";
+import Projects from "./components/Projects";
+import { Routes, Route } from "react-router-dom";
 
 
-const Home = () => {
+function App() {
   return (
-    <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Timeline />
-    <Routes>
-      <Route path="/" element = {<Home/>} />
-      <Route path="/projects" element = {<Projects/>} />
-      <Route path="/blog" element = {<Blog/>} />
-      <Route path="/about" element = {<About/>} />
-      <Route path="/contact" element = {<Contact/>} />
-    </Routes>
-    </Layout>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element = {<Home/>} />
+        <Route path='/projects' element = {<Projects/>} />
+        <Route path='/blog' element = {<Blog/>} />
+        <Route path='/about' element = {<About/>} />
+        <Route path='/contact' element = {<Contact/>} />
+      </Routes>
+    </div>
   );
-};
+}
 
-export default Home;
+export default App;
