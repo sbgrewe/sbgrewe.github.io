@@ -1,14 +1,21 @@
 import React from 'react';
-import SimpleReactFooter from 'simple-react-footer';
+import './footer.css';
 
 const Footer = () => {
-// Define the data for the footer
-const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-const title = "Lorem Ipsum";
+return (
+    <div className="footer section">
+        <div className="footer heading">
+            <h1 className='footer heading text'>
+                Lorem ipsum 
+            </h1>
+            <p className='footer text'>
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+            </p>
+        </div>
+    </div>
 
-return <SimpleReactFooter
-description={description}
-title={title} />;
+)
 }
 
 export default Footer;

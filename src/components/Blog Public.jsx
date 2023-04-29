@@ -5,9 +5,9 @@ const Blog_Public= () => {
     <div name='contact' className='w-full h-screen bg-[#081b36] flex justify-center items-center p-4'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Blog</p>
-                <p className='text-gray-300 py-4'>The blog is under construction.</p>
-                <p className='text-gray-300 py-4'>I hope you return when </p>
+                <p className='text-4xl font-bold inline border-b-2 border-orange-600 text-white'>Blog</p>
+                <p className='text-white text-xl py-4'>The blog is currently under construction.</p>
+                <p className='text-white text-xl py-4'>I hope you return when there is more to see! I have a lot of stories to share about science and data</p>
             </div>
         </div>
     </div>
