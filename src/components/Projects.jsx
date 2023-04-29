@@ -1,7 +1,8 @@
 import React from 'react';
-import HTML_logo from '../assets/html.png';
-import react_logo from '../assets/react.png';
-import Github_logo from '../assets/github.png';
+import HTML_logo from '../assets/projects/html.png';
+import react_logo from '../assets/projects/react.png';
+import Github_logo from '../assets/projects/github.png';
+import JS_logo from '../assets/projects/javascript.png';
 import { data } from "../data/data.js";
 
 
@@ -15,9 +16,8 @@ return (
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div>
         <p className='text-4xl font-bold inline border-b-2 text-gray-300 border-orange-600'>Skills</p>
-        <p className='py-6 text-2xl'>Here are a few technologies I've used:</p>
+        <p className='py-6 text-2xl'>Here are a few of the major programs, tools, and languages I've used in my work:</p>
       </div>
-
       <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <p className='my-4'>Python</p>
@@ -40,6 +40,13 @@ return (
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <img className='w-20 mx-auto' src={react_logo} alt="React logo" />
           <p className='my-4'>React</p>
+        </div>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <img className='w-20 mx-auto' src={JS_logo} alt="JS logo" />
+          <p className='my-4'>JavaScript</p>
+        </div>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <p className='my-4'>Tableau</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <img className='w-20 mx-auto' src={HTML_logo} alt="HTML logo" />
