@@ -7,7 +7,7 @@ const About = () => {
       <div className='flex flex-col justify-center items-center w-full h-full' style={{ overflow: 'auto' }}>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' >
           <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-orange-600'>
+            <p className='text-4xl font-bold inline border-b-2 border-orange-600'>
               About Myself
             </p>
           </div>
@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-2xl font-bold'>
-              <p>I am studying at American University's Data Science MS program in Washington, D.C, and I made this site to promote my progess as a data scientist.</p>
+              <p>I am currently enrolled in American University's Data Science MS program in Washington, D.C, and I made this site to promote my progess as a data scientist.</p>
             </div>
             <div>
               
@@ -31,8 +31,8 @@ const About = () => {
             </div>
             <div>
             <p>
-                I am primarily interested in aligning data science practices with problems in business, healthcare, and the public sector. I am also interested in 
-                creative and effective data visualizations, such as real-time simulations, animations, and interactive figures, to problems of all kinds.
+                I am interested in applying data science to open-ended problems in business, healthcare, and the public sector. I am also interested in 
+                creating effective data visualizations, such as real-time simulations, animations, and interactive figures, to problems of all kinds.
             </p>
             </div>
             <div>
@@ -44,7 +44,7 @@ const About = () => {
             <div>
               <p>
                 Since being exposed to STEM education, and later working as a teacher, I have been interested in using visuals as a way to inform audiences of 
-                complex subjects. I plan to continue leveraging computer tools in order to uniquely communicate my work to collaborators and .
+                complex subjects.
               </p>
             </div>
             <div>

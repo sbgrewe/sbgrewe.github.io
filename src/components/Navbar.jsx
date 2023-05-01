@@ -19,19 +19,19 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <a href = '/'>Home</a>
+          <a href = '/' className='text-xl font-bold'>Home</a>
         </li>
         <li>
-          <a href = '/Projects'>Projects</a>
+          <a href = '/Projects' className='text-xl font-bold'>Projects</a>
         </li>
         <li>
-          <a href = '/Blog'>Blog</a>
+          <a href = '/Blog' className='text-xl font-bold'>Blog</a>
         </li>
         <li>
-          <a href = '/About'>About</a>
+          <a href = '/About' className='text-xl font-bold'>About</a>
         </li>
         <li>
-          <a href = '/Contact'>Contact</a>
+          <a href = '/Contact' className='text-xl font-bold'>Contact</a>
         </li>
       </ul>
 
@@ -48,19 +48,19 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-xl font-bold'>
           <a href = '/'>Home</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-xl font-bold'>
           <a href = '/Projects'>Projects</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-xl font-bold'>
           <a href = '/Blog'>Blog</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-xl font-bold'>
           <a href = '/About'>About</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-xl font-bold'>
           <a href = '/Contact'>Contact</a>
         </li>
       </ul>
@@ -79,7 +79,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/sbgrewe'
             >
               Github <FaGithub size={30} />
             </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/contact'
+              href='mailto:spencer.grewe@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>

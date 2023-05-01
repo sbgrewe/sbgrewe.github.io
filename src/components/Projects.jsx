@@ -18,9 +18,9 @@ const Projects = () => {
     const project = data;
     //setProject(data); 
 return (
-<div name='projects_page' className='w-full h-screen*2 bg-[#081b36] text-gray-300'>
+<div name='projects_page' className='w-full h-auto bg-[#081b36] text-gray-300'>
     {/* Container */}
-    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
       <div>
         <p className='text-4xl font-bold inline border-b-2 text-gray-300 border-orange-600'>Skills</p>
         <p className='py-6 text-2xl'>Here are some major programs, tools, and languages I've used in my work:</p>
@@ -90,16 +90,16 @@ return (
                       flex justify-center text-center items-center mx-auto content-div "
           >
           <div className="opacity-0 group-hover:opacity-100 ">
-            <span className="text-2xl font bold text-white tracking-wider ">
+            <span className="text-2xl font-bold text-white tracking-wider ">
               {item.title}
             </span>
-            <div>
-              <span className="pt-2 font italic text-white mx-auto">
+            <div className='max-w-[425px]'>
+              <span className="pt-2 font italic text-white ">
                 {item.description}
               </span>
             </div>
             <div className="pt-2 text-center ">
-              <span className="text-white tracking-wider ">
+              <span className="text-white tracking-wider">
                 Made with {item.tags}
               </span>
             </div>
