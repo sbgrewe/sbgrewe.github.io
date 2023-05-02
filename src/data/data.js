@@ -5,7 +5,7 @@ import bg_research from '../assets/projects/research.png'
 import bg_Offbeat from '../assets/projects/offbeat.png'
 
 
-export const data=[
+export const proj_data=[
     {
         id: 0,
         title: 'Tenser.io',

@@ -10,12 +10,12 @@ import JS_logo from '../assets/projects/javascript.png';
 import HTML_logo from '../assets/projects/html.png';
 import tableau_logo from '../assets/projects/html.png';
 import Github_logo from '../assets/projects/github.png';
-import { data } from "../data/data.js";
+import { proj_data } from "../data/data.js";
 
 
 const Projects = () => {
     // projects file
-    const project = data;
+    const project = proj_data;
     //setProject(data); 
 return (
 <div name='projects_page' className='w-full h-auto bg-[#081b36] text-gray-300'>
