@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sbgrewe/sbgrewe.github.io/static/css/main.30ceb842.css",
-    "main.js": "/sbgrewe/sbgrewe.github.io/static/js/main.72722048.js",
+    "main.js": "/sbgrewe/sbgrewe.github.io/static/js/main.a41be6fc.js",
     "static/media/offbeat.png": "/sbgrewe/sbgrewe.github.io/static/media/offbeat.f25531d1d314f255c0da.png",
     "static/media/research.png": "/sbgrewe/sbgrewe.github.io/static/media/research.e709d279221e8ab8f628.png",
     "static/media/statistical.png": "/sbgrewe/sbgrewe.github.io/static/media/statistical.cceda8ad86dc3fe921ea.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/sbgrewe/sbgrewe.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/sbgrewe/sbgrewe.github.io/index.html",
     "main.30ceb842.css.map": "/sbgrewe/sbgrewe.github.io/static/css/main.30ceb842.css.map",
-    "main.72722048.js.map": "/sbgrewe/sbgrewe.github.io/static/js/main.72722048.js.map"
+    "main.a41be6fc.js.map": "/sbgrewe/sbgrewe.github.io/static/js/main.a41be6fc.js.map"
   },
   "entrypoints": [
     "static/css/main.30ceb842.css",
-    "static/js/main.72722048.js"
+    "static/js/main.a41be6fc.js"
   ]
 }
