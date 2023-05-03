@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/sbgrewe.github.io/static/css/main.30ceb842.css",
-    "main.js": "/sbgrewe.github.io/static/js/main.2e2249a9.js",
-    "static/media/offbeat.png": "/sbgrewe.github.io/static/media/offbeat.f25531d1d314f255c0da.png",
-    "static/media/research.png": "/sbgrewe.github.io/static/media/research.e709d279221e8ab8f628.png",
-    "static/media/statistical.png": "/sbgrewe.github.io/static/media/statistical.cceda8ad86dc3fe921ea.png",
-    "static/media/tenser.png": "/sbgrewe.github.io/static/media/tenser.4f382fec55afcf01a8a6.png",
-    "static/media/matlab.png": "/sbgrewe.github.io/static/media/matlab.81cd9c9386ce1d3a210b.png",
-    "static/media/react.png": "/sbgrewe.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/R.png": "/sbgrewe.github.io/static/media/R.a100955da273d5ca654d.png",
-    "static/media/github.png": "/sbgrewe.github.io/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/msaccess.png": "/sbgrewe.github.io/static/media/msaccess.60ac9837fe9d64505f88.png",
-    "static/media/html.png": "/sbgrewe.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/python.png": "/sbgrewe.github.io/static/media/python.13b1bb48409725e459a6.png",
-    "static/media/msexcel.png": "/sbgrewe.github.io/static/media/msexcel.b57a1232955071e64e25.png",
-    "static/media/javascript.png": "/sbgrewe.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/sbgrewe.github.io/index.html",
-    "main.30ceb842.css.map": "/sbgrewe.github.io/static/css/main.30ceb842.css.map",
-    "main.2e2249a9.js.map": "/sbgrewe.github.io/static/js/main.2e2249a9.js.map"
+    "main.css": "/static/css/main.30ceb842.css",
+    "main.js": "/static/js/main.8604c98d.js",
+    "static/media/offbeat.png": "/static/media/offbeat.f25531d1d314f255c0da.png",
+    "static/media/research.png": "/static/media/research.e709d279221e8ab8f628.png",
+    "static/media/statistical.png": "/static/media/statistical.cceda8ad86dc3fe921ea.png",
+    "static/media/tenser.png": "/static/media/tenser.4f382fec55afcf01a8a6.png",
+    "static/media/matlab.png": "/static/media/matlab.81cd9c9386ce1d3a210b.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/R.png": "/static/media/R.a100955da273d5ca654d.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/msaccess.png": "/static/media/msaccess.60ac9837fe9d64505f88.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/python.png": "/static/media/python.13b1bb48409725e459a6.png",
+    "static/media/msexcel.png": "/static/media/msexcel.b57a1232955071e64e25.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.30ceb842.css.map": "/static/css/main.30ceb842.css.map",
+    "main.8604c98d.js.map": "/static/js/main.8604c98d.js.map"
   },
   "entrypoints": [
     "static/css/main.30ceb842.css",
-    "static/js/main.2e2249a9.js"
+    "static/js/main.8604c98d.js"
   ]
 }
