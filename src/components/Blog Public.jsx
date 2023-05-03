@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog_Public= () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#081b36] flex justify-center items-center p-4'>
+    <div name='Blog' className='w-full h-screen bg-[#081b36] flex justify-center items-center p-4'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-2 border-orange-600 text-white'>Blog</p>

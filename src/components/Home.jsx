@@ -4,7 +4,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen*2 bg-[#081b36]'>
+    <div name='Home' className='w-full h-screen*2 bg-[#081b36]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen'>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ce834a]'>
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen*0.5'>
         <div>
-          c
+          
         </div>
       </div>
     </div>

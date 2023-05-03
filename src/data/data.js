@@ -1,4 +1,3 @@
-
 import bg_tenser from '../assets/projects/tenser.png'
 import bg_statistical from '../assets/projects/statistical.png'
 import bg_research from '../assets/projects/research.png'
@@ -38,5 +37,4 @@ export const proj_data=[
         tags: 'Godot 4, SQL, Inkscape.',
         visit: 'https://github.com/sbgrewe',
     },
-
 ]

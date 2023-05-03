@@ -18,7 +18,7 @@ const Projects = () => {
     const project = proj_data;
     //setProject(data); 
 return (
-<div name='projects_page' className='w-full h-auto bg-[#081b36] text-gray-300'>
+<div name='Projects' className='w-full h-auto bg-[#081b36] text-gray-300'>
     {/* Container */}
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
       <div>
