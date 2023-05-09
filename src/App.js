@@ -5,22 +5,22 @@ import Blog from "./components/Blog Public";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <div> 
+    <HashRouter> 
       <Navbar />
       <Routes> 
-        <Route path='/' element = {<Home/>} />
-        <Route path='/projects' element = {<Projects/>} />
-        <Route path='/blog' element = {<Blog/>} />
-        <Route path='/about' element = {<About/>} />
-        <Route path='/contact' element = {<Contact/>} />
+        <Route path="/" element = {<Home/>} />
+        <Route exact path = '/Projects' element = {<Projects/>} />
+        <Route path="/Blog" element = {<Blog/>} />
+        <Route path='/About' element = {<About/>} />
+        <Route path='/Contact' element = {<Contact/>} />
       </Routes>
       <Footer />
-    </div>
+    </HashRouter>
   );
 }
 

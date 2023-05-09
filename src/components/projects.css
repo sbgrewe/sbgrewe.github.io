@@ -1,0 +1,27 @@
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: #040c16;
+    box-shadow: md;
+    box-shadow: #040c16;
+    max-width: 120px;
+    max-height: 120px;
+
+}
+.icon_container:hover {
+    scale: 110%;
+}
+
+.icon_text {
+    text: xl;
+}
+
+.icon_image {
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+    max-height: 120px;
+}
+

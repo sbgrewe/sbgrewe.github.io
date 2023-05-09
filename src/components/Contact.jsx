@@ -1,19 +1,38 @@
 import React from 'react'
+import { contact_data } from "../data/data.js";
+
+
 
 const Contact = () => {
+  const contact_methods = contact_data;
   return (
-    <div name='contact' className='w-full h-screen bg-[#081b36] flex justify-center items-center p-4'>
-        <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-2 border-orange-600 text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4 text-xl'>Submit the form below to send me an email, or contact me directly through Linkedin, Email, or Github.</p>
+    <div name='contact' className='w-full h-screen bg-[#081f3f] flex justify-center items-center p-4'>
+      <div className='pb-8'>
+        <p className='text-4xl font-bold inline border-b-2 border-orange-600 text-white'>Contact</p>
+        <p className='text-white py-4 text-xl'>Please contact me directly through any of the following channels:</p>
+      </div>   
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12">
+            {contact_methods.map((item, index) => (
+          <div key={index} style={{ backgroundImage: `url(${item.image})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md 
+                      flex justify-center text-center items-center mx-auto content-div">
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font-bold text-white tracking-wider ">
+                {item.name}
+              </span>
+              <div className="pt-2 text-center ">
+                <a href={item.link} target="_blank">
+                  <button className="text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Contact
+                  </button>
+                </a>
+              </div>
             </div>
-            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Send Message</button>
-        </form>
+          </div>
+          ))}
+      </div>
     </div>
+
   )
 }
 
