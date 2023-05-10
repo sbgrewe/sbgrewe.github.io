@@ -14,13 +14,9 @@
     scale: 110%;
 }
 
-.icon_text {
-    text: xl;
-}
-
 .icon_image {
+    scale: 80%;
     justify-content: center;
-    align-items: center;
     max-width: 120px;
     max-height: 120px;
 }

@@ -3,10 +3,6 @@ import bg_statistical from '../assets/projects/statistical.png'
 import bg_research from '../assets/projects/research.png'
 import bg_Offbeat from '../assets/projects/offbeat.png'
 
-import icon_Github from '../assets/projects/github.png'
-import icon_Linkedin from '../assets/projects/github.png'
-import icon_Email from '../assets/projects/github.png'
-
 import py_logo from '../assets/projects/python.png';
 import R_logo from '../assets/projects/R.png';
 import MATLAB_logo from '../assets/projects/matlab.png';
@@ -18,6 +14,10 @@ import JS_logo from '../assets/projects/javascript.png';
 import HTML_logo from '../assets/projects/html.png';
 import Tableau_logo from '../assets/projects/tableau.png';
 import Github_logo from '../assets/projects/github.png';
+
+import icon_Github from '../assets/projects/github.png'
+import icon_Linkedin from '../assets/projects/github.png'
+import icon_Email from '../assets/projects/github.png'
 
 
 export const proj_data=[

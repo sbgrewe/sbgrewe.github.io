@@ -5,17 +5,17 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen*2 bg-[#081f3f]'>
+    <div name='home' className='w-full h-[1700px] bg-[#081f3f]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[600px]'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#f18f45]'>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#df733b]'>
           Welcome!
         </h1>
         <h2 className='text-3xl sm:text-3xl font-bold text-[#ffffff]'>
           My name is Spencer Grewe
         </h2>
       </div>  
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen*0.5'>    
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[200px]'>    
         <h2 className='text-4xl sm:text-5xl font-bold text-[#a4c9ff]'>
           I am a Data Scientist working toward a Master's degree at American University.
         </h2>
